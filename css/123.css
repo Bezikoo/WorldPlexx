@@ -1,0 +1,90 @@
+body {
+    background-color: green; 
+  }
+  
+  .login {
+    padding: 15px;
+    float: right;
+  }
+  
+  .login input[type="text"],
+  .login input[type="password"] {  
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .login input[type="submit"] {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+  }
+  
+  .login input[type="submit"]:hover, button:hover {
+    background-color: darkgray;
+    color: white;
+  }
+  
+  .page-navigation {
+    background-color: #222;
+    border-color: #101010;
+    min-height: 64px;
+    right: 1000px;
+    left: 1000PX;   
+    top: 300px;
+  }
+  
+  .page-navigation li {
+    float: left;
+    width: 100px;
+    
+  }
+  
+  .page-navigation {
+    display: block;
+    color: #9d9d9d;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+    position: center;
+
+  }
+  
+  .page-navigation {
+    color: yellowgreen;
+    background-color: black;
+  }
+  
+  .container {
+    margin: 0 auto; 
+    width: 960px;
+    text-align: center;
+    right: 1000px;
+    left: 1000PX;   
+    top: 300px;
+  }
+  
+  nav {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  .header{
+	padding: 50px 0;
+}
+.header h1,
+.header h2{
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style-type: none;
+}
